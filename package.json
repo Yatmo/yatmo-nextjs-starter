@@ -1,0 +1,25 @@
+{
+  "name": "yatmo-nextjs-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js starter for real estate listing pages with Yatmo: neighbourhood map, points of interest, schools, public transport, travel times and a server-rendered neighbourhood text for SEO.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@yatmo/react": "^1.0.1",
+    "@yatmo/sdk": "^1.0.1",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
